@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- this is an HTML comment -->
+<html>
+
+<head>
+    <title>Anum Stage-1 work</title>
+    <!--this href is CSS file in which we add the styles for our structure html file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Important Concepts Of HTML and CSS</h1>
+    <!-- create a first div for  lesson 1- introduction to HTML -->
+    <div class="lesson">
+        <!-- I give heading for first div of lesson-1-->
+        <h2>Lesson 1 - Introduction to HTML</h2>
+        <!--create another div for sections in a lesson-1-->
+        <div class="section" id="section-1-1">
+            <!-- further,create a inner div for section title and description -->
+            <div class="section-title">How the Web Works?</div>
+            <div class="section-description">
+                The web is made up of:
+                <ul class="list">
+                    <li>HTML which "glues" everything together</li>
+                    <li>URLs</li>
+                    <li>HTTP </li>
+                    <li>Web Applications</li>
+                </ul>
+                <p> Hyperlinks serve as the glue holding together all pages of the web. Many types of files can be found on the web, including Plain Text, HTML, Images, Videos, and Music.</p>
+                <p> There are <span class="italic"> 3 main pieces of Web- </span> Your Computer , Internet and Servers
+                </p>
+                <p>Your computer running a web browser (Internet Explorer or Google Chrome) and browser makes a request to to servers over internet which is the largeest computer network using <b>HTTP</b> protocol. Servers send the response to your computer through HTTP. HTTP <span class="italic">(HyperText Transfer Protocol) </span>is the protocol that helps in communicating between your computer and servers. The servers are also like computers but they are used for hosting the files that make up the web .
+                </p>
+            </div>
+        </div>
+        <!-- this is div of second section of lesson-1. -->
+        <div class="section" id="section-1-2">
+            <div class="section-title">HTML</div>
+            <!-- here create a row div which consist of 2 columns(again two  div) one for description and other for image -->
+            <div class="row">
+                <div class="section-description">
+                    <p>HTML stands for <span class="italic">Hyper Text Markup Language.</span> It consists of Markup tags,Web Contents,Images and Videos and References to other documents called Hyperlinks.HTML documents are made up by HTML elements.HTML elements are written with start tag, end tag and the content between the start tag and end tag.
+                    </p>
+                    Here some of the important concepts of HTML:
+                    <ol class="orderlist">
+                        <li><b>Tags:</b> Tags modify content. Here are some examples:
+                            <ul class="list">
+                                <li>Bold &lt;b&gt; + content + &lt;/b&gt; </li>
+                                <li>Italics &lt;em&gt; + content + &lt;/em&gt;</li>
+                                <li>Links &lt;a href="value"&gt; + content + &lt;/a&gt;. Note that this uses "href."</li>
+                                <li>Images &lt;img src="url" alt="text"&gt;+ content. Note that this uses "src."</li>
+                                <li>Break &lt;br&gt; which ends lines</li>
+                                <li>Paragraph &lt;p&gt; which makes text blocks</li>
+                            </ul>
+                        </li>
+                        <li><b>Element:</b> Everything within a set of tags.</li>
+                        <li><b>Attribute:</b> Property of an HTML Element.</li>
+                        <li><b>White Space:</b> Text that takes up multiple lines while typing code will show as one line on a webpage unless broken up with tags.</li>
+                    </ol>
+                    This <a class="link" href="http://www.w3schools.com/">Link</a> will helps you to learn more about HTML.
+                </div>
+                <div class="image"> <img src="/images/html_image.jpg" title="htmltag" alt="HTMLimage"></div>
+            </div>
+        </div>
+        <!-- create a third section of lesson 1 div -->
+        <div class="section" id="section-1-3">
+            <div class="section-title">Inline Vs Block Elements</div>
+            <div class="section-description">
+                <p>An <b>Inline element</b> does not start on a new line and only takes up as much width as necessary. </p>
+                Examples of inline elements:
+                <ul>
+                    <li>&lt;br&gt;</li>
+                    <li>&lt;span&gt;</li>
+                    <li>&lt;img&gt;</li>
+                </ul>
+                A <b>Block-level element</b> always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can. Examples of block elements:
+                <ul>
+                    <li>&lt;div&gt;</li>
+                    <li>&lt;h1-h6&gt;</li>
+                    <li>&lt;form&gt;</li>
+                    <li>&lt;p&gt;</li>
+                </ul>
+                <p>The <b>&lt;div&gt; element </b>is a block-level element that is often used as a container for other HTML elements. The &lt;div&gt; element has no required attributes, but style and class are common. When used together with CSS, the &lt;div&gt; element can be used to style blocks of content:</p>
+                <p>
+                    The <b>&lt;span&gt; element </b>is an inline element that is often used as a container for some text. The &lt;span&gt; element has no required attributes, but style and class are common. When used together with CSS, the &lt;span&gt; element can be used to style parts of the text</p>
+                <p> This <a class="link" href="http://www.w3schools.com/">Link</a> will helps you to learn more about inline and blocks elements.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- create a second div lesson-2 -->
+    <div class="lesson">
+        <h2>Lesson 2- Creating a Structured Document with HTML</h2>
+        <!-- create a div for sections of second div -->
+        <div class="section" id="section-2-1">
+            <div class="section-title">Developer Tools (in the Browser)</div>
+            <div class="section-description">
+                <p>HTML elements are either <span class="italic">inline or block.</span> Block elements form an "invisible box" around the content inside of them</p>
+            </div>
+        </div>
+        <!-- create a another section div for lesson 2 div -->
+        <div class="section" id="section-2-2">
+            <div class="section-title">The "tree-like structure" of HTML</div>
+            <div class="section-description">
+                <p>The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. You can draw this relationship like a family tree. My mother had multiple children. So did her mother, and so on... In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...</p>
+                <p>How broswers classify HTML. This is what developers talk about when they refer to "DOM," the Document Object Model.</p>
+            </div>
+        </div>
+        <!-- create another section for lesson-2 -->
+        <div class="section" id="section-2-3">
+            <div class="section-title">The relationship between indented HTML and boxes</div>
+            <div class="section-description">
+                <p>When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested its corresponding "box" is.</p>
+            </div>
+        </div>
+        <!-- create another section for lesson 2 -->
+        <div class="section" id="section-2-4">
+            <div class="section-title">Text Editors </div>
+            <div class="section-description">
+                <p> <b>Scratchpad:</b> A program where the speed of feedback is immediate, the ease of use would be considered beginner, where it is impossible to share your work, the "power" it has is quite low, and its languages are limited to HTML and CSS.
+                    <br>
+                    <b>Codepen:</b> A program where t speed of feedback takes 2-3 seconds, the ease of use would be considered intermediate, where it is easy to share your work, if you have an account, the "power" it has is quite high, and it supports 3 languages.
+                    <br>
+                    <b>Sublime:</b> A program where feedback is given once the page is refreshed, the ease of use would be considered expert, where it is difficult to share your work, the "power" it has is the highest, and it supports all languages.</p>
+            </div>
+        </div>
+    </div>
+    <!-- create a third div for lesson 3 -->
+    <div class="lesson">
+        <h2> Lesson 3-Adding CSS style to HTML structure</h2>
+        <!-- create a sections for lesson-3 div -->
+        <div class="section" id="section-3-1">
+            <div class="section-title">Avoiding Repetition</div>
+            <div class="section-description">
+                <p>Avoiding repetition is important for a variety of reasons.
+                </p>
+                <p> <b>Avoiding Errors:</b> When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.</p>
+                <p> <b>Consistency:</b> In this web page, I wanted every lesson to look the same. Instead of manually giving each one the same style, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetion, it's now very easy for me to make changes to this style.</p>
+            </div>
+        </div>
+        <!--create another section of lesson-3 div -->
+        <div class="section" id="section-3-2">
+            <div class="section-title">CSS</div>
+            <!-- create a row for section-description(CSS) -->
+            <div class="row">
+                <!-- this is first subdiv of CSS section -->
+                <div class="css-desc">
+                    <div class="css-subtitle">Cascading Style Sheet</div>
+                    <div class="css-subdescription">
+                        <p> CSS stands for <b>Cascading Style Sheets </b>and they give programmers a way to control the style of related HTML elements.
+                            <br> This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.</p>
+                        First, prep the document to make sure it will respond to the following changes:
+                        <ul>
+                            <li>Add DOCTYPE html to the top of the file</li>
+                            <li>Add &lt;html&gt; directly below this tag</li>
+                            <li>Add &lt;/html&gt; below the final tag in the file Indent the HTML structure within HTML tags</li>
+                            <li>Add &lt;head&gt; &lt;/head&gt; below &lt;html&gt;</li>
+                            <li>Add &lt;link rel="stylesheet" type="text/css" href=""&gt; and add the name of the CSS file after href</li>
+                            <li>Add &lt;body&gt; &lt;/body&gt; tag and move HTML structure within &lt;body&gt; tags</li>
+                        </ul>
+                        Then, you will write two files:
+                        <ul>
+                            <li>main.html</li>
+                            <li>main.css</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- this is second subdiv of CSS section -->
+                <div class="box">
+                    <div class="css-subtitle">Box Model</div>
+                    <div class="css-subdescription">
+                        The internet is made up of boxes. Tags produce four unique boxes:
+                        <ul>
+                            <li> <b>Content: </b>image or text</li>
+                            <li> Padding: clears the area around the content. The space inside of the box that protects the content directly</li>
+                            <li> <b>Border:</b> goes around the above to boxes.Color proprerties inherited from the box properties.</li>
+                            <li> <b>Margin:</b> which is not affected by any background colors. "Space between boxes.</li>
+                            <li>The Border + Padding + Content widths = the size of the element.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- this is third subdiv of CSS section -->
+                <div class="code">
+                    <div class="css-subtitle">Code,Test & Refine</div>
+                    <div class="css-subdescription">
+                        Coding has a good amount of trial and error built into the process. Considering this, here's a guide on how to code efficiently.
+                        <ul>
+                            <li>
+                                Look for natural boxes</li>
+                            <li>Look for repeated style and semantic elements</li>
+                            <li>Write your HTML</li>
+                            <li>Apply styles (from biggest to smallest)</li>
+                            <li>Fix things</li>
+                            <li>Repeat the above three steps until the website looks like the design mock-up</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--create another section of lesson-3 div -->
+        <div class="section" id="section-3-3">
+            <div class="section-title">Coding Resources</div>
+            <!-- create a row for description -->
+            <div class=section-description>
+                The following coding resources will help me learn to "think like a programmer":
+                <ol class="orderlist">
+                    <li>
+                        <b>Udacity -</b> From the Udacity homepage I can access lots of classes to help me on my journey, including the Intro to Programming Nanodegree program! I can find lots of support under the "Resources" tab of my Nanodegree program</li>
+                    <li>
+                        <b>Udacity Discussion Forums -</b> The Udacity Discussion Forums are a great place to go if I need help with a lesson or project.</li>
+                    <li>
+                        <b> w3schools.com -</b> This website helps in learning new CSS styles.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

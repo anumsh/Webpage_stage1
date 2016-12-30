@@ -1,0 +1,149 @@
+/*-- this is CSS comment */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* set the margin,padding,color and width of body */
+
+body {
+    padding: 30px;
+    max-width: 2000px;
+    margin: 8px;
+    background-color: #7C8B88;
+}
+
+
+/* adding styles(background-color,margin and padding) to main div */
+
+.lesson {
+    background-color: #131A2D;
+    margin: 8px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+/* this is  set the padding.margin,text-color,backgroundcolor
+of sections of three lessons */
+
+.section {
+    padding: 4px;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: #E5E7E9;
+}
+
+.section-title {
+    text-align: left;
+    font-size: 28px;
+    margin: 8px;
+    color: #D5245B;
+    font-weight: bold;
+}
+
+.section-description {
+    font-weight: lighter;
+    margin: 8px;
+}
+
+
+/* setting the text align,color,font of heading */
+
+h1 {
+    text-align: center;
+    color: #131A2D;
+    font-family: Helvetica;
+    font-size: 2.8em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 33px;
+    margin: 4px;
+    padding: 5px;
+    color: #7C8B88;
+}
+
+
+/*  flex value will let (divs) appear next to each other. */
+
+.row {
+    display: flex;
+}
+
+
+/* it will set the border and margin -8px of image-tag1.png */
+
+.image {
+    border-radius: 5px;
+    margin: 8px;
+}
+
+
+/*  set the font property of italic class as bold and italic
+elements will look bold and italic */
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* list-style property provide the bullets
+will appear in circle of unordered list*/
+
+.list {
+    list-style: circle;
+}
+
+
+/* list-style property provide the bullets
+will appear in square of ordered list*/
+
+.orderlist {
+    list-style: square;
+}
+
+
+/*   will set the color and font of anchor tag */
+
+.link {
+    color: #D5245B;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+
+
+/* this will set the margin,padding and
+display of subdiv of section-CSS
+List are display in suvdiv as we have
+set the display property as :list-item, so that list will
+display in subdiv*/
+
+.code,
+.box,
+.css-desc {
+    display: flex;
+    margin: 3px;
+    display: list-item;
+    padding: 5px;
+}
+
+.css-subtitle {
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    color: blue;
+}
+
+.css-subdescription {
+    padding: 4px;
+    margin: 6px;
+}
